@@ -9,6 +9,7 @@ import ModalComponent from "../components/ModalComponent";
 
 
 const Notifications = () => {
+    
     const [modalVisible, setModalVisible] = useState(false);
     const [value, setValue] = useState(null);
     const [keys, setKeys] = useState(null);
