@@ -1,0 +1,29 @@
+{
+    "title": "Ayarlar",
+    "controls": [
+        {
+            "type": "input",
+            "caption": "E-mail",
+            "validator": "email"
+        },
+        {
+            "type": "choice",
+            "caption": "Gerçek / Tüzel Kişi",
+            "items": {
+                "gk": "Gerçek Kişi",
+                "tk": "Tüzel Kişi"
+            }
+        },
+        {
+            "type": "choice",
+            "multiple": true,
+            "caption": "Bildirimler",
+            "items": {
+                "ot": "Otel",
+                "tur": "Tur",
+                "ge": "Gemi",
+                "uç": "Uçak"
+            }
+        }
+    ]
+}
