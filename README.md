@@ -33,4 +33,4 @@
 ## Projenin Çalıştırılması
 
 * Proje .zip olarak indirildikten sonra Ide de açılır.
-* Terminal kısmına ` npm react-native run-android ` yazılarak çalıştırılır.
+* Terminal kısmına ` npx react-native run-android ` yazılarak çalıştırılır.
